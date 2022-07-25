@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_elements_split_features",
+  "info": {
+    "displayName": "Split Feature",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mediaAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
+    }
+  }
+}

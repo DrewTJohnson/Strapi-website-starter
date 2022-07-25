@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_elements_multiple_callouts",
+  "info": {
+    "displayName": "Multiple Callout",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MultipleCalloutItem": {
+      "displayName": "Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout-elements.item"
+    }
+  }
+}

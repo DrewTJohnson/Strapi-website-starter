@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BodyContent": {
+      "type": "dynamiczone",
+      "components": [
+        "layout-elements.multiple-callout",
+        "layout-elements.simple-paragraph",
+        "layout-elements.split-feature",
+        "media-element.hero-slider",
+        "media-element.hero"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_elements_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "LinkText": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.strapi.io"
+    },
+    "NewTab": {
+      "type": "boolean"
+    }
+  }
+}

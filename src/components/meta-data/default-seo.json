@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_meta_data_default_seos",
+  "info": {
+    "displayName": "DefaultSeo",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MetaDescription": {
+      "type": "text"
+    },
+    "ShareImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

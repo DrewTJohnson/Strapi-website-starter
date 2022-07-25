@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_elements_simple_paragraphs",
+  "info": {
+    "displayName": "Simple Paragraph",
+    "icon": "paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}
