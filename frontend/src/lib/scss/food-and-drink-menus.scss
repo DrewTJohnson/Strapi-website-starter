@@ -1,0 +1,35 @@
+.menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    .menu {
+        .menu-item-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .menu-item-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 1rem;
+                h2 {
+                    margin: 0;
+                }
+                p {
+                    display: flex;
+                    flex-grow: 1;
+                    text-align: right;
+                    margin: 0;
+                    &::before {
+                        content: '';
+                        background: repeating-linear-gradient(to right, currentColor, 1px, transparent 2px, transparent 4px);
+                        height: 1px;
+                        flex-grow: 1;
+                        display: inline-block;
+                        margin-top: 1em;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+header {
+    &.main-navigation {
+        height: 75px;
+        background-color: #F8F0E3;
+        .navbar {
+            height: 100%;
+            padding: 0 1rem;
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            a {
+                font-weight: 700;
+                color: #2b232b;
+                text-decoration: underline;
+                text-decoration-color: #2b232b00;
+                text-underline-offset: 1px;
+                text-decoration-thickness: 3px;
+                transition: text-decoration-color 0.3s ease-in-out;
+                &:hover {
+                    text-decoration-color: #2b232b;
+                    text-underline-offset: 1px;
+                    text-decoration-thickness: 3px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    bottom: 0;
+    .container {
+        padding: 0 1rem;
+    }
+}

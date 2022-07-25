@@ -1,0 +1,25 @@
+diff --git a/node_modules/gatsby-source-strapi/lib/index.js b/node_modules/gatsby-source-strapi/lib/index.js
+index 30f2f2f..37eff94 100644
+--- a/node_modules/gatsby-source-strapi/lib/index.js
++++ b/node_modules/gatsby-source-strapi/lib/index.js
+@@ -58,13 +58,13 @@ const addDynamicZoneFieldsToSchema = ({
+   } = actions; // Search for dynamic zones in all items
+ 
+   const dynamicZoneFields = {};
+-  items.forEach(item => {
+-    _lodash.default.forEach(item, (value, field) => {
+-      if (_normalize.default.isDynamicZone(value)) {
+-        dynamicZoneFields[field] = 'JSON';
+-      }
+-    });
+-  }); // Cast dynamic zone fields to JSON
++  // items.forEach(item => {
++  //   _lodash.default.forEach(item, (value, field) => {
++  //     if (_normalize.default.isDynamicZone(value)) {
++  //       dynamicZoneFields[field] = 'JSON';
++  //     }
++  //   });
++  // }); // Cast dynamic zone fields to JSON
+ 
+   if (!_lodash.default.isEmpty(dynamicZoneFields)) {
+     const typeDef = schema.buildObjectType({
