@@ -1,5 +1,7 @@
 @import "./src/lib/scss/food-and-drink-menus.scss";
 @import "./src/lib/scss/navigation";
+@import "./src/components/scss/split-feature.scss";
+@import "./src/components//scss/basic-paragraph.scss";
 
 html {
     background-color: #232b2b;
@@ -13,7 +15,23 @@ html {
                 flex-direction: column;
                 main {
                     flex: 1;
-                    margin: 0 1rem;
+                    .hero-container {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        height: 60vh;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        .text-container {
+                            left: 10%;
+                            position: relative;
+                            width: 50%;
+                            background: rgba(0, 0, 0, 0.45);
+                            border-radius: 3px;
+                            padding: 25px;
+                        }
+                    }
                 }
             }
     }

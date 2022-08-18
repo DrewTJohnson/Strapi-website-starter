@@ -31,6 +31,27 @@
       "type": "component",
       "repeatable": false,
       "component": "meta-data.default-seo"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "ParentPage": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "inNavigation": {
+      "type": "boolean",
+      "default": false
+    },
+    "navigationLocation": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "secondary",
+        "footer"
+      ]
     }
   }
 }

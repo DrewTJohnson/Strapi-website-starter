@@ -1,0 +1,14 @@
+.split-feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    .img-container {
+        flex: 1 0 45%;
+    }
+    .text-container {
+        flex: 0 0 45%;
+        padding: 2rem;
+    }
+}

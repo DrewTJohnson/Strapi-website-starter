@@ -5978,10 +5978,10 @@
     "yoga-layout-prebuilt" "^1.10.0"
     "yurnalist" "^2.1.0"
 
-"gatsby-core-utils@^3.17.0", "gatsby-core-utils@^3.18.0", "gatsby-core-utils@^3.19.0", "gatsby-core-utils@^3.5.1":
-  "integrity" "sha512-cjXs9DsXkPZt+UdiLHxtq+rGMGVrcnM0KwkawlruvPchI7lqGNv9CScqlvYPxx1dBhu3zSZS26EBALMlFhyOJA=="
-  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.19.0.tgz"
-  "version" "3.19.0"
+"gatsby-core-utils@^3.17.0", "gatsby-core-utils@^3.18.0", "gatsby-core-utils@^3.19.0", "gatsby-core-utils@^3.20.0", "gatsby-core-utils@^3.5.1":
+  "integrity" "sha512-D3DIulUFoPvexwsGYFkfESL1Dd3qsxBfj8OBi8vsd6BuXrA6MbLtX3j5+BLVxfKkN2wF7XN6b3/DH+JGNuhh2A=="
+  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.20.0.tgz"
+  "version" "3.20.0"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "ci-info" "2.0.0"
@@ -6211,16 +6211,16 @@
     "@types/sharp" "^0.30.0"
     "sharp" "^0.30.3"
 
-"gatsby-source-filesystem@^4.0.0-next", "gatsby-source-filesystem@^4.17.0", "gatsby-source-filesystem@^4.19.0":
-  "integrity" "sha512-UUBEqRCKpq/rWX5K8Kizmoi2Cls9oOTEtZRUrhdtMqpz5Y6VAmd7Pwina03r0fej+AoebZWOEzPTOh+WhpIDFw=="
-  "resolved" "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-4.19.0.tgz"
-  "version" "4.19.0"
+"gatsby-source-filesystem@^4.0.0-next", "gatsby-source-filesystem@^4.17.0", "gatsby-source-filesystem@^4.20.0":
+  "integrity" "sha512-U29GxTqmpDpjEONFoELGmm3q3a/z8SREDcSyfUqkKnbA0UMgSSZQMuWGMcnoNcU2E8GyyY72zjPq0cb7Jps3xw=="
+  "resolved" "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-4.20.0.tgz"
+  "version" "4.20.0"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "chokidar" "^3.5.3"
     "file-type" "^16.5.3"
     "fs-extra" "^10.1.0"
-    "gatsby-core-utils" "^3.19.0"
+    "gatsby-core-utils" "^3.20.0"
     "got" "^9.6.0"
     "md5-file" "^5.0.0"
     "mime" "^2.5.2"

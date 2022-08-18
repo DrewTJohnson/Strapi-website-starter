@@ -2,7 +2,7 @@ import React from "react"
 
 const BlockParagraph = ({ data }) => {
     return (
-        <div className="text-contaienr">
+        <div className="basic-paragraph text-contaienr">
             <p>{data.Text}</p>
         </div>
     )

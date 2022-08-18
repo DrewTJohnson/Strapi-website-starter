@@ -14,6 +14,10 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-postcss",
     "gatsby-plugin-sass",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-strapi",
       options: {
@@ -32,6 +36,12 @@ module.exports = {
                   populate: "*",
                 },
               },
+              PageMeta: {
+                populate: "*",
+              },
+              ParentPage: {
+                populate: "*",
+              },
             },
           },
         },
@@ -45,6 +55,16 @@ module.exports = {
                   populate: "*",
                 },
                 Favicon: {
+                  populate: "*",
+                },
+              },
+            },
+          },
+          {
+            singularName: "homepage",
+            queryParams: {
+              populate: {
+                Blocks: {
                   populate: "*",
                 },
               },

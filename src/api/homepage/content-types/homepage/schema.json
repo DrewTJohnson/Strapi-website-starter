@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "BodyContent": {
+    "Blocks": {
       "type": "dynamiczone",
       "components": [
         "layout-elements.multiple-callout",
         "layout-elements.simple-paragraph",
         "layout-elements.split-feature",
-        "media-element.hero-slider",
-        "media-element.hero"
+        "media-element.hero",
+        "media-element.hero-slider"
       ]
     }
   }
