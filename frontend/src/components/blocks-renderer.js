@@ -76,6 +76,12 @@ export const BlockQuery = graphql`
                 }
                 alternativeText
             }
+            CTA {
+                id
+                LinkText
+                NewTab
+                url
+            }
           }
     }
 `

@@ -1,13 +1,25 @@
-import { Link } from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
 import React from "react"
+import { graphql } from "gatsby"
+
+
 
 const Navbar = () => {
+    const { strapiGlobal } = useStaticQuery(graphql`
+    query {
+      strapiGlobal {
+          SiteName
+          SiteDescription
+      }
+    }
+  `)
+
     return (
         <header className="main-navigation">
             <nav className="navbar primary-nav">
                 <div className="site-logo-container">
                     <Link to="/home" className="nav-item">
-                        SiteName
+                        {strapiGlobal.SiteName}
                     </Link>
                 </div>
                 <div className="nav-item-container nav-row">

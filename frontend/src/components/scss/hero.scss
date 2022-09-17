@@ -1,0 +1,52 @@
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    main {
+        flex: 1;
+        .hero-container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            height: 50vh;
+            .text-container {
+                background: $primaryBlue;
+                color: $white;
+                flex: 1 0 50%;  
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;  
+                height: 100%;  
+                .content {
+                    padding: 0 4rem 0 2rem;
+                    .link-container {
+                        display: flex;
+                        padding: 1rem 0;
+                        a {
+                            display: block;
+                            max-width: 150px;
+                            text-align: center;
+                            color: $black;
+                            font-weight: 600;
+                            text-decoration: none;
+                            padding: 0.5rem 1rem;
+                            background-color: $primaryOrange;
+                            border-radius: 15px;
+                        }
+                    }
+                }    
+            }
+            .image-container {
+                height: 100%;
+                flex: 1 0 50%;
+                display: flex;
+                img {
+                    max-height: inherit;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

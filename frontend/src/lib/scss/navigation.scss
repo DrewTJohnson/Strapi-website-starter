@@ -1,10 +1,12 @@
+@import "./variables.scss";
+
 header {
     &.main-navigation {
-        background-color: #F8F0E3;
+        background-color: $primaryBlue;
         .navbar {
             height: 75px;        
             padding: 0 1rem;
-            max-width: 1280px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             flex-direction: row;
@@ -12,16 +14,16 @@ header {
             align-items: center;
             a {
                 font-weight: 700;
-                color: #2b232b;
+                color: $white;
                 text-decoration: underline;
-                text-decoration-color: #2b232b00;
-                text-underline-offset: 1px;
-                text-decoration-thickness: 3px;
+                text-decoration-color: transparent;
+                text-underline-offset: 3px;
+                text-decoration-thickness: 2px;
                 transition: text-decoration-color 0.3s ease-in-out;
                 &:hover {
-                    text-decoration-color: #2b232b;
-                    text-underline-offset: 1px;
-                    text-decoration-thickness: 3px;
+                    text-decoration-color: $white;
+                    text-underline-offset: 3px;
+                    text-decoration-thickness: 2px;
                 }
             }
         }
